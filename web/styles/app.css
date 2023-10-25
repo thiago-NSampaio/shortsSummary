@@ -7,10 +7,11 @@
 #app > h1{
     color: #996dff;
     margin-top: -5px;
+    font-size: 50px;
 }
 
 #app >img {
-    width: 64px;
+    width: 150px;
 }
 
 #app > h2{
