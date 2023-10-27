@@ -22,7 +22,7 @@ form.addEventListener("submit", async(e) => {
 
     content.textContent = "Realizando o resumo..."
 
-    // content.textContent = transcption.data.result
+    content.textContent = transcption.data.result
 
     const summary = await server.post("/summary", {
         text: transcption.data.result,

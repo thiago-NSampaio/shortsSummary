@@ -1,21 +1,42 @@
-body{
-    background-color: #121214;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  border: none;
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
-
-
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  font-family: "Roboto", sans-serif;
 }
+
+:root {
+  --font-color: #996dff;
+  --second-font-color: #fff;
+  --third-font-color: #633bbc;
+  --bg-color: #000;
+  --second-bg-color: #1c1c1c;
+  --third-bg-color: #202020;
+  --ouline-color: #8257e5;
+  --placeholder-color: #7c7c8a;
+  --text-color: #fff;
+}
+
+body {
+  background: var(--bg-color);
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--font-color);
+}
+
 
 body, button, input {
     font-family: "Roboto", sans-serif;

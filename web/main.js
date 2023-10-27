@@ -1,5 +1,12 @@
-import "./form.js"
+//CSS
 import "./styles/base.css"
 import "./styles/app.css"
 import "./styles/form.css"
-import "./app.js"
+import "./styles/light-theme.css"
+//JS
+import { toggleMode } from "./theme.js"
+import "./animation.js"
+import "./form.js"
+
+
+window.toggleMode = toggleMode
